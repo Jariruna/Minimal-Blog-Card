@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;600;700&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    width: 100%;
+    height: 100%;
+    font-family: "Sora", sans-serif;
+}
+
+.container{
+    background-color: #FAFAF9;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 368px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.09);
+    margin-top: 164px;
+    /* border: 16px solid white; */
+    border-radius: 16px 16px 0 0;
+    padding-top: 16px;
+}
+.content{
+    width: 336px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content .boton{
+    
+    border-radius: 8px;
+    background-color: #E6D6FC;
+    margin-left: 0;
+    padding: 6px 16px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    color: #883AE1;
+    font-weight: bold   ;
+}
+
+.content > h2{
+    width: 100%;
+    text-align: left;
+    font-size: 1.125rem;
+    color: #20293A;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.content > p {
+    
+    text-align: left;
+    font-size: 14px;
+    color: #6C727F;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.container .nombre{
+    border-top: 1px solid #E5EAF0;
+    background-color: #FFFFFF;
+    width: 368px;
+    padding: 16px;
+    color:#6C727F;
+    font-size: 0.75rem;
+    border-radius: 0 0 16px 16px;
+}
+
+.card > figure{
+    width: 336px;
+    height: 152px;
+    
+}
+
+.card > figure > img {
+    
+    width: 100%;
+    height: 100%;
+}
